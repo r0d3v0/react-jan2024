@@ -11,7 +11,7 @@ interface IProductProps {
     brand?: number,
     category?: number,
     thumbnail?: string[],
-    images?: string
+    images: string[];
 }
  type IProductTypeProps = IProductProps & { children?: React.ReactNode };
 
